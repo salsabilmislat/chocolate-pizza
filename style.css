@@ -1,4 +1,86 @@
+* {
+
+padding:auto;
+margin: auto;
+}
+#head{
+    padding:50px;
+    margin: 50px;
+}
+#div1{
+    float: left;
+}
+#h{
+    display: inline-block;
+    }
+   #h h1{
+        margin-left: 2%;
+        
+        float: left;
+    }
+  #h  h4{
+        float: left;
+    padding: 0;
+    margin: 0;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+    #links{
+        display:inline-block;
+           margin-left: 75%;
+        
+    }
 nav #logo {
     float: left;
 
+}
+#body div{
+    padding:5px;
+    margin: 5px;
+}
+#body button{
+    float: right;
+}
+#body a img {
+ align-items: center;
+ margin-left:20% ;
+ position: relative;
+}
+#body article{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+#ingredeant{
+    background-image: url("image/list-bg.png") ;
+    background-position: center;
+    text-align: center;
+    display: inline-block;
+}
+#right{
+    float: left;
+}
+#left{
+    float: right;
+}
+#owner{
+    padding:50px;
+    margin: 50px;
+}
+#owner a{
+    float: left;
+}
+#owner nav{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    position: relative;
+    bottom: 0;
+   margin-top: 60px;
+    
+   width: 80%;
+   height: 100px;
+   margin-left: 200px;
+    font-size: 15px;
 }
