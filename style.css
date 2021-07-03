@@ -4,11 +4,15 @@ padding:auto;
 margin: auto;
 }
 #head{
-    padding:50px;
-    margin: 50px;
+    padding-top: 50px;
+    padding-right: 21%;
+    padding-bottom: 50px;
+    padding-left: 21%;
 }
 #div1{
     float: left;
+    width: 50%;
+
 }
 #h{
     display: inline-block;
@@ -19,15 +23,11 @@ margin: auto;
         float: left;
     }
   #h  h4{
-        float: left;
-    padding: 0;
-    margin: 0;
     margin-top: 10%;
-    margin-right: 10%;
+
 }
     #links{
-        display:inline-block;
-           margin-left: 75%;
+        float: right;
         
     }
 nav #logo {
@@ -35,8 +35,10 @@ nav #logo {
 
 }
 #body div{
-    padding:5px;
-    margin: 5px;
+    padding-top: 50px;
+    padding-right: 21%;
+    padding-bottom: 50px;
+    padding-left: 21%;
 }
 #body button{
     float: right;
@@ -47,40 +49,61 @@ nav #logo {
  position: relative;
 }
 #body article{
-    text-align: center;
-    padding: 20px;
-    margin: 20px;
+    padding-top: 50px;
+    padding-right: 21%;
+    padding-bottom: 50px;
+    padding-left: 21%;
 }
 #ingredeant{
+    padding-top: 50px;
+    padding-right: 21%;
+    padding-bottom: 50px;
+    padding-left: 21%;
+    height: 300px;
+
+}
+#both{
     background-image: url("image/list-bg.png") ;
-    background-position: center;
-    text-align: center;
     display: inline-block;
+    width: 100%;
+    height: 100%;
+
 }
 #right{
     float: left;
+    margin-left: 10%;
+    margin-top: 7%;
+    font-size: 20px;
 }
 #left{
     float: right;
+    margin-right: 10%;
+    margin-top: 7%;
+    font-size: 20px;
 }
 #owner{
-    padding:50px;
-    margin: 50px;
+    padding-top: 50px;
+    padding-right: 21%;
+    padding-bottom: 50px;
+    padding-left: 21%;
 }
 #owner a{
     float: left;
 }
-#owner nav{
-    text-align: center;
+#owner div{
+    float: left;
+    width: 100%;
+
+}
+#owner button{
+    background-color: brown;
+    float: right;
+    
+    height: 50px;
 }
 footer{
-    text-align: center;
-    position: relative;
     bottom: 0;
-   margin-top: 60px;
-    
-   width: 80%;
-   height: 100px;
-   margin-left: 200px;
+    margin-top: 145px;
     font-size: 15px;
+    text-align: center;
 }
